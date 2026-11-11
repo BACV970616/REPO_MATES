@@ -7,7 +7,7 @@ namespace MatesConsola
         static void Main(string[] args)
         {
             Console.WriteLine("entra un numero de 1 a 9");
-            int num = Convert.ToInt32(Console.ReadLine);
+            int num = Convert.ToInt32(Console.ReadLine());
 
             while(num<1|| num > 9)
             {
