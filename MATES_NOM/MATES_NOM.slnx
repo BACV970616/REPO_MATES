@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="matesConsola/matesConsola.csproj" DisplayName="MatesConsola" Id="fe2249bb-8f01-4586-b2f1-7b6edbd52edc" />
+  <Project Path="matesLib/matesLib.csproj" />
+</Solution>
