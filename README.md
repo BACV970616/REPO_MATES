@@ -1,15 +1,15 @@
-<div align="center">
+<center>
 
 # A4 - Entorno de desarrollo (Visual Studio 2026)
-  Asignatura: Entornos de Desarrollo.
+  Asignatura: Entornos de Desarrollo.{  }
 
 Ciclo: DAW A.1
 
 Alumno: BRAYAN ALEXIS CARDENAS VELLASQUEZ.
-</div>
+</center>
 
 
-# 1. Conceptos Iniciales Previos
+## 1. Conceptos Iniciales Previos
 ##  Definición de IDE
 Un **IDE** (*Integrated Development Environment* o Entorno de Desarrollo Integrado) es un entorno de software que proporciona un conjunto unificado de herramientas para facilitar el desarrollo, la programación, la compilación y la depuración de aplicaciones informáticas dentro de una única interfaz gráfica centralizada.
 
