@@ -1,11 +1,11 @@
 <div align="center">
 
 # A4 - Entorno de desarrollo (Visual Studio 2026)
-**Asignatura:** Entornos de Desarrollo.
+  Asignatura: Entornos de Desarrollo.
 
-**Ciclo:** DAW A.1
+Ciclo: DAW A.1
 
-**Alumno:** BRAYAN ALEXIS CARDENAS VELLASQUEZ.
+Alumno: BRAYAN ALEXIS CARDENAS VELLASQUEZ.
 </div>
 
 
