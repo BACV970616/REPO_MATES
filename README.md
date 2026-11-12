@@ -7,7 +7,9 @@
 </div>
 --- 
 ## 1. Conceptos Iniciales Previos
+
 ##  Definición de IDE
+
 Un **IDE** (*Integrated Development Environment* o Entorno de Desarrollo Integrado) es un entorno de software que proporciona un conjunto unificado de herramientas para facilitar el desarrollo, la programación, la compilación y la depuración de aplicaciones informáticas dentro de una única interfaz gráfica centralizada.
 
 ## 2. Características generales de un IDE
