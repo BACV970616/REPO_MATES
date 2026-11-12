@@ -1,11 +1,9 @@
 <div align="center">
 
 # A4 - Entorno de desarrollo (Visual Studio 2026)
-## Asignatura: Entornos de Desarrollo.
-
-## Ciclo: DAW A.1
-
-## Alumno: BRAYAN ALEXIS CARDENAS VELLASQUEZ.
+**Asignatura:** Entornos de Desarrollo.
+**Ciclo:** DAW A.1
+**Alumno:** BRAYAN ALEXIS CARDENAS VELLASQUEZ.
 </div>
 
 
@@ -250,27 +248,31 @@ namespace MatesConsola
 * **Nombre del ejecutable:** `MatesConsola.exe` \
 * **Ruta completa en el disco:** `C:\Users\bacv9\OneDrive\Desktop\DAW\ENTORNS\A1.4REPO_MATES\MATES_NOM\MatesConsola\bin\Release\net10.0\MatesConsola.exe` 
 
- 📷 ![Ubicación del ejecutable en bin/Release](imagenes/captura1\_exe.png) 
+ 📷 ![Ubicación del ejecutable en bin/Release](./imagenes/captura1_exe.png) 
+
+ ---
 
 ## 4.3. Tema claro y Tema oscuro de Visual Studio 2026 
 
 ### Tema Oscuro (Dark Theme) 
 
-📷 ![Visual Studio 2026 en Tema Oscuro](imagenes/captura2\_oscuro.png)
+📷 ![Visual Studio 2026 en Tema Oscuro](./imagenes/captura2_oscuro.png)
+
+---
 
 ### Tema Claro (Light/Blue Theme) 
 
- 📷 ![Visual Studio 2026 en Tema Claro](imagenes/captura3\_claro.png)
+ 📷 ![Visual Studio 2026 en Tema Claro](./imagenes/captura3_claro.png)
 
 ## 4.4. Configuración de la versión de .NET 
 
-📷 ![Propiedades del proyecto - Marco de destino .NET 10.0](imagenes/captura4\_dotnet.png) 
+📷 ![Propiedades del proyecto - Marco de destino .NET 10.0](./imagenes/captura4_dotnet.png) 
 
 
 
 ## 4.5. Ejecución y funcionamiento interactivo de la aplicación 
- 📷 ![Ejecución de MatesConsola en la ventana de comandos](imagenes/captura5\_consola.png)
+ 📷 ![Ejecución de MatesConsola en la ventana de comandos](./imagenes/captura5_consola.png)
 
 ## 4.6. Historial de commits y subida a GitHub desde Visual Studio
-  📷 ![Historial de Git y confirmación Push en Visual Studio](imagenes/captura6\_git.png)
+  📷 ![Historial de Git y confirmación Push en Visual Studio](./imagenes/captura6_git.png)
   ---
