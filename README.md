@@ -142,11 +142,11 @@ Para instalar los paquetes necesarios que permiten conectar una aplicación C# a
   5. Seleccionar el paquete en la lista de resultados, marcar el proyecto donde se desea instalar en el panel derecho y hacer clic en el botón **Instalar** (*Install*). 
   6. Aceptar los términos de la licencia en la ventana emergente para completar la descarga e integración de las bibliotecas DLL en las dependencias del proyecto.
 
- ## 9. Localización e instalación del Diseñador de Clases (*Class Designer*) 
+  ## 9. Localización e instalación del Diseñador de Clases (*Class Designer*) 
  
  El **Diseñador de clases** (*Class Designer*) no siempre viene instalado por defecto en las opciones básicas de Visual Studio, pero se puede agregar fácilmente mediante la herramienta **Visual Studio Installer**: 
  
- ### Pasos para instalar la herramienta:
+### Pasos para instalar la herramienta:
  
   1. Abrir el programa **Visual Studio Installer** desde el menú de inicio de Windows (o ir dentro de Visual Studio a `Herramientas ; Obtener herramientas y características...`). 
   2. Hacer clic en el botón **Modificar** (*Modify*) en la versión instalada de Visual Studio 2026. 
