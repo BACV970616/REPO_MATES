@@ -12,7 +12,7 @@
 
 ## 1. Conceptos Iniciales Previos
 
-##  Definición de IDE
+###  Definición de IDE
 
 Un **IDE** (*Integrated Development Environment* o Entorno de Desarrollo Integrado) es un entorno de software que proporciona un conjunto unificado de herramientas para facilitar el desarrollo, la programación, la compilación y la depuración de aplicaciones informáticas dentro de una única interfaz gráfica centralizada.
 
@@ -66,7 +66,7 @@ Visual Studio está diseñado de forma nativa para el sistema operativo **Window
    
    ## 4. Pasos para crear una Aplicación de Consola en C# y versión de .NET
    
-   ### Pasos para crear una Aplicación de Consola en Visual Studio 2026:
+### Pasos para crear una Aplicación de Consola en Visual Studio 2026:
    
    1. **Abrir Visual Studio 2026** y seleccionar la opción **Crear un proyecto** (*Create a new project*) en la pantalla de inicio.
    2. **Filtrar la plantilla:**
@@ -121,7 +121,7 @@ Para modificar y establecer una carpeta personalizada por defecto donde guardar 
   1. Ir al menú superior y hacer clic en **Herramientas &gt; Opciones** (*Tools &gt; Options*). 
   2. En el árbol de navegación de la izquierda, desplegar **Proyectos y soluciones** (*Projects and Solutions*) y seleccionar **Ubicaciones** (*Locations*). 
   3. En el apartado **Ubicación de proyectos** (*Projects location*), hacer clic en el botón de exploración (`...`) para examinar las carpetas del equipo y seleccionar la ruta deseada (por ejemplo, `C:\Usuarios\TuNombre\\Proyectos`). 
-4. Pulsar el botón **Aceptar** para confirmar la configuración. A partir de este momento, Visual Studio propondrá esa carpeta de forma predeterminada al crear cualquier nuevo proyecto.
+ 4. Pulsar el botón **Aceptar** para confirmar la configuración. A partir de este momento, Visual Studio propondrá esa carpeta de forma predeterminada al crear cualquier nuevo proyecto.
 
 ## 7. Configuración del tema oscuro (*Dark theme*)
 
