@@ -103,52 +103,52 @@ Si alguna de estas ventanas se cierra accidentalmente, se puede recuperar fácil
 * **Menú Depurar &gt; Ventanas (*Debug &gt; Windows*):** Para reactivar ventanas específicas de depuración como *Locales*, *Autos* o *Pila de llamadas* mientras la aplicación está en pausa.
 # 2. Personalización y Configuración
 Para modificar y establecer una carpeta personalizada por defecto donde guardar las soluciones y proyectos en Visual Studio 2026, se deben seguir estos pasos:
-1. Ir al menú superior y hacer clic en **Herramientas &gt; Opciones** (*Tools &gt; Options*). 
-2. En el árbol de navegación de la izquierda, desplegar **Proyectos y soluciones** (*Projects and Solutions*) y seleccionar **Ubicaciones** (*Locations*). 
-3. En el apartado **Ubicación de proyectos** (*Projects location*), hacer clic en el botón de exploración (`...`) para examinar las carpetas del equipo y seleccionar la ruta deseada (por ejemplo, `C:\Usuarios\TuNombre\\Proyectos`). 
+  1. Ir al menú superior y hacer clic en **Herramientas &gt; Opciones** (*Tools &gt; Options*). 
+  2. En el árbol de navegación de la izquierda, desplegar **Proyectos y soluciones** (*Projects and Solutions*) y seleccionar **Ubicaciones** (*Locations*). 
+  3. En el apartado **Ubicación de proyectos** (*Projects location*), hacer clic en el botón de exploración (`...`) para examinar las carpetas del equipo y seleccionar la ruta deseada (por ejemplo, `C:\Usuarios\TuNombre\\Proyectos`). 
 4. Pulsar el botón **Aceptar** para confirmar la configuración. A partir de este momento, Visual Studio propondrá esa carpeta de forma predeterminada al crear cualquier nuevo proyecto.
 ## 7. Configuración del tema oscuro (*Dark theme*) 
 Para cambiar el tema visual de la interfaz de Visual Studio 2026 a una tonalidad oscura (*Dark theme*), se siguen estos pasos: 
-1. Ir al menú superior y seleccionar **Herramientas &gt; Opciones\*\* (\*Tools &gt; Options*). 
-2. En la barra lateral izquierda, desplegar el menú **Entorno &gt; General** (*Environment &gt; General*). 
-3. En el desplegable **Tema de color** (*Color theme*), seleccionar la opción **Oscuro** (*Dark*). 
-4. Pulsar el botón **Aceptar** para guardar los cambios y aplicar la apariencia oscura inmediatamente.
+  1. Ir al menú superior y seleccionar **Herramientas &gt; Opciones\*\* (\*Tools &gt; Options*). 
+  2. En la barra lateral izquierda, desplegar el menú **Entorno &gt; General** (*Environment &gt; General*). 
+  3. En el desplegable **Tema de color** (*Color theme*), seleccionar la opción **Oscuro** (*Dark*). 
+  4. Pulsar el botón **Aceptar** para guardar los cambios y aplicar la apariencia oscura inmediatamente.
 ## 8. Instalación de paquetes para conexión a MariaDB mediante NuGet
- Para instalar los paquetes necesarios que permiten conectar una aplicación C# a una base de datos **MariaDB** utilizando el gestor de paquetes **NuGet** en Visual Studio 2026, se deben realizar los siguientes pasos: 
- 1. Abrir la solución o proyecto en Visual Studio 2026. 
- 2. En el **Explorador de soluciones** (*Solution Explorer*), hacer clic con el botón derecho sobre el proyecto (o la solución) y seleccionar **Administrar paquetes NuGet...** (*Manage NuGet Packages...*). *(También se puede acceder desde el menú superior: `Herramientas ; Administrador de paquetes NuGet ; Administrar paquetes NuGet para la solución`).* 
- 3. En la ventana del gestor NuGet, hacer clic en la pestaña **Examinar** (*Browse*). 
- 4. En la barra de búsqueda, escribir el nombre del conector oficial de MariaDB / MySQL (por ejemplo, `MySqlConnector` o `MySql.Data`). 
- 5. Seleccionar el paquete en la lista de resultados, marcar el proyecto donde se desea instalar en el panel derecho y hacer clic en el botón **Instalar** (*Install*). 
- 6. Aceptar los términos de la licencia en la ventana emergente para completar la descarga e integración de las bibliotecas DLL en las dependencias del proyecto.
+Para instalar los paquetes necesarios que permiten conectar una aplicación C# a una base de datos **MariaDB** utilizando el gestor de paquetes **NuGet** en Visual Studio 2026, se deben realizar los siguientes pasos: 
+  1. Abrir la solución o proyecto en Visual Studio 2026. 
+  2. En el **Explorador de soluciones** (*Solution Explorer*), hacer clic con el botón derecho sobre el proyecto (o la solución) y seleccionar **Administrar paquetes NuGet...** (*Manage NuGet Packages...*). *(También se puede acceder desde el menú superior: `Herramientas ; Administrador de paquetes NuGet ; Administrar paquetes NuGet para la solución`).* 
+  3. En la ventana del gestor NuGet, hacer clic en la pestaña **Examinar** (*Browse*). 
+  4. En la barra de búsqueda, escribir el nombre del conector oficial de MariaDB / MySQL (por ejemplo, `MySqlConnector` o `MySql.Data`). 
+  5. Seleccionar el paquete en la lista de resultados, marcar el proyecto donde se desea instalar en el panel derecho y hacer clic en el botón **Instalar** (*Install*). 
+  6. Aceptar los términos de la licencia en la ventana emergente para completar la descarga e integración de las bibliotecas DLL en las dependencias del proyecto.
  ## 9. Localización e instalación del Diseñador de Clases (*Class Designer*) 
  El **Diseñador de clases** (*Class Designer*) no siempre viene instalado por defecto en las opciones básicas de Visual Studio, pero se puede agregar fácilmente mediante la herramienta **Visual Studio Installer**: 
  ### Pasos para instalar la herramienta: 
- 1. Abrir el programa **Visual Studio Installer** desde el menú de inicio de Windows (o ir dentro de Visual Studio a `Herramientas ; Obtener herramientas y características...`). 
- 2. Hacer clic en el botón **Modificar** (*Modify*) en la versión instalada de Visual Studio 2026. 
- 3. Ir a la pestaña **Componentes individuales** (*Individual components*) en la parte superior. 
- 4. En la barra de búsqueda, escribir **Diseñador de clases** (*Class Designer*). 5. Marcar la casilla del componente **Diseñador de clases** y pulsar el botón **Modificar** en la esquina inferior derecha para descargar e instalar el módulo. ### Pasos para utilizarlo en el proyecto: 
- 1. Hacer clic con el botón derecho sobre el proyecto o la clase en el **Explorador de soluciones**. 
- 2. Seleccionar la opción **Ver diagrama de clases** (*View Class Diagram*), o bien ir a `Agregar ; Nuevo elemento...` y seleccionar **Diagrama de clases** (*Class Diagram*).
+  1. Abrir el programa **Visual Studio Installer** desde el menú de inicio de Windows (o ir dentro de Visual Studio a `Herramientas ; Obtener herramientas y características...`). 
+  2. Hacer clic en el botón **Modificar** (*Modify*) en la versión instalada de Visual Studio 2026. 
+  3. Ir a la pestaña **Componentes individuales** (*Individual components*) en la parte superior. 
+  4. En la barra de búsqueda, escribir **Diseñador de clases** (*Class Designer*). 5. Marcar la casilla del componente **Diseñador de clases** y pulsar el botón **Modificar** en la esquina inferior derecha para descargar e instalar el módulo. ### Pasos para utilizarlo en el proyecto: 
+  1. Hacer clic con el botón derecho sobre el proyecto o la clase en el **Explorador de soluciones**. 
+  2. Seleccionar la opción **Ver diagrama de clases** (*View Class Diagram*), o bien ir a `Agregar ; Nuevo elemento...` y seleccionar **Diagrama de clases** (*Class Diagram*).
 ## 10. Instalación y activación de la extensión GitHub Copilot
 
  Para activar y utilizar **GitHub Copilot** como asistente de inteligencia artificial para la generación de código dentro de Visual Studio 2026, se deben realizar los siguientes pasos: 
- 1. Abrir **Visual Studio 2026**. 2\. Ir al menú superior **Extensiones &gt; Administrar extensiones** (*Extensions &gt; Manage Extensions*). 
- 3. En la pestaña **En línea** (*Online*), utilizar la barra de búsqueda en la esquina superior derecha y escribir `GitHub Copilot`. 
- 4. Seleccionar la extensión oficial **GitHub Copilot** (y/o *GitHub Copilot Chat*) en la lista de resultados y hacer clic en **Descargar** (*Download*). 
- 5. Cerrar todas las ventanas abiertas de Visual Studio para permitir que el instalador de extensiones (VSIX Installer) ejecute la instalación en segundo plano. 
- 6. Volver a iniciar Visual Studio 2026 e **iniciar sesión con la cuenta de GitHub** que tenga la suscripción activa (como la suscripción gratuita para estudiantes *GitHub Student Developer Pack*). 
- 7. Una vez autenticado, Copilot comenzará a mostrar sugerencias de autocompletado de código en tiempo real y habilitará la ventana de chat interactivo para asistencia.
+  1. Abrir **Visual Studio 2026**. 2\. Ir al menú superior **Extensiones &gt; Administrar extensiones** (*Extensions &gt; Manage Extensions*). 
+  3. En la pestaña **En línea** (*Online*), utilizar la barra de búsqueda en la esquina superior derecha y escribir `GitHub Copilot`. 
+  4. Seleccionar la extensión oficial **GitHub Copilot** (y/o *GitHub Copilot Chat*) en la lista de resultados y hacer clic en **Descargar** (*Download*). 
+  5. Cerrar todas las ventanas abiertas de Visual Studio para permitir que el instalador de extensiones (VSIX Installer) ejecute la instalación en segundo plano. 
+  6. Volver a iniciar Visual Studio 2026 e **iniciar sesión con la cuenta de GitHub** que tenga la suscripción activa (como la suscripción gratuita para estudiantes *GitHub Student Developer Pack*). 
+  7. Una vez autenticado, Copilot comenzará a mostrar sugerencias de autocompletado de código en tiempo real y habilitará la ventana de chat interactivo para asistencia.
  
 
 # 3. Tarea Final: Desarrollo de la Solución `MATES_NOM` ## 
 3.1. Creación del repositorio público en GitHub (`REPO_MATES`) Para preparar el entorno de control de versiones del proyecto, se realizan los siguientes pasos iniciales en GitHub: 
-1. **Crear el repositorio en GitHub:** 
-    * Acceder a la cuenta personal de GitHub y pulsar en **New Repository**. 
-    * **Nombre del repositorio:** `REPO_MATES`. 
-        * **Visibilidad:** Seleccionar **Public**. * **Archivos iniciales:** 
-    * Marcar la casilla **Add a README file**. 
-    * En el desplegable **Add .gitignore**, seleccionar la plantilla de **Visual Studio** (para evitar subir archivos temporales de compilación como `/bin` o `/obj`). 
+ 1. **Crear el repositorio en GitHub:** 
+     * Acceder a la cuenta personal de GitHub y pulsar en **New Repository**. 
+     * **Nombre del repositorio:** `REPO_MATES`. 
+         * **Visibilidad:** Seleccionar **Public**. * **Archivos iniciales:** 
+     * Marcar la casilla **Add a README file**. 
+     * En el desplegable **Add .gitignore**, seleccionar la plantilla de **Visual Studio** (para evitar subir archivos temporales de compilación como `/bin` o `/obj`). 
 2. **Clonar el repositorio localmente:** 
     * Copiar la URL del repositorio creado en GitHub: `https://github.com/BACV970616/REPO\_MATES.git\`. 
     * Abrir **Visual Studio 2026** (o la consola Git / GitKraken) y seleccionar **Clonar un repositorio** (*Clone a repository*). 
