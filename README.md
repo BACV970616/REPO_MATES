@@ -6,6 +6,7 @@
 **Alumno:** BRAYAN ALEXIS CARDENAS VELLASQUEZ 
 </div>
 --- 
+
 ## 1. Conceptos Iniciales Previos
 
 ##  Definición de IDE
